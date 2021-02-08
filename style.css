@@ -55,7 +55,7 @@ body {
   	transition: background-color 0.2s;
 }
 .login form input[type="submit"]:hover {
-	background-color: ##ffff00;
+	background-color: #ffff00;
 	color: #000000;
   	transition: background-color 0.2s;
 }
