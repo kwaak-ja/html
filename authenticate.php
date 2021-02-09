@@ -41,11 +41,11 @@ if ($stmt = $con->prepare('SELECT id, password FROM users WHERE username = ?')) 
 		echo 'Welcome ' . $_SESSION['name'] . '!';
 	} else {
 		// Incorrect password
-		echo 'Incorrect username and/or password!';
+		echo 'Incorrect username and/or password 0987!';
 	}
 } else {
 	// Incorrect username
-	echo 'Incorrect username and/or password!';
+	echo 'Incorrect username and/or password 1234!';
 }
 
 
