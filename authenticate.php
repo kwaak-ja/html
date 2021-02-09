@@ -2,8 +2,8 @@
 session_start();
 // Change this to your connection info.
 $DATABASE_HOST = '192.168.1.51:3306';
-$DATABASE_USER = 'mysql';
-$DATABASE_PASS = '';
+$DATABASE_USER = 'website';
+$DATABASE_PASS = 'W3bP@ge';
 $DATABASE_NAME = 'phplogin';
 // Try and connect using the info above.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
