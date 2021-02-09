@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Change this to your connection info.
-$DATABASE_HOST = '192.168.1.51:3307';
+$DATABASE_HOST = '192.168.1.51:3306';
 $DATABASE_USER = 'website';
 $DATABASE_PASS = 'W3bP@ge';
 $DATABASE_NAME = 'phplogin';
