@@ -42,9 +42,10 @@ if ($stmt = $con->prepare('SELECT id, password FROM users WHERE username = ?')) 
 	} else {
 		// Incorrect password
 		echo 'Incorrect username and/or password 0987!';
-		$command = escapeshellcmd('flpb02/home/overwatch/GuardianWatch/face_rec.py');
+		$command = escapeshellcmd('flpb02/home/overwatch/GuardianWatch/LICENSE.txt');
         $output = shell_exec($command);
         echo $output;
+        echo 'Python Script should have run';
 
 	}
 } else {
